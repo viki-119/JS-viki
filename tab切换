@@ -6,7 +6,7 @@
 <script type="text/javascript">
 	function t1(pid){
 		var ps=["mil","news","people","tech"];
-		var len=ps.length
+		var len=ps.length;
 		for(var i=0;i<len;i++){
 			if(ps[i]==pid){
 				document.getElementById(pid).style.display="block";
