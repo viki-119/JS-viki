@@ -12,3 +12,6 @@
 使体积变小。推荐工具：http://javascriptcompressor.com/
 因为空行等问题，有时候使用这类工具会使JS功能失效，而最简单的办法是用Dreamweaver，把压缩后的JS放入DW中，
 DW会自动提示你那里有误，把错误的地方另起一行，或还原回去即可。
+
+其他解答：
+http://blog.csdn.net/huanghui8030/article/details/10148291
