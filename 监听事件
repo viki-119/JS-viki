@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app="scopeExample">
+    <head>
+    	<meta charset="utf-8">
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="./bootstrap.min.css">
+        <script src="http://code.angularjs.org/angular-1.0.1.min.js"></script>
+    </head>
+    <body>
+  		<div id="content">
+  			<button class="bt1">button1</button>
+  			<button class="bt2">button2</button>
+  		</div>
+  
+  		<script>
+  			var target=document.getElementById('content');
+  			target.addEventListener('click',function(event){
+  				console.log(event.target);
+  			});
+  		</script>
+    </body> 
+</html>
