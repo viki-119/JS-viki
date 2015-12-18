@@ -19,9 +19,9 @@ http://blog.csdn.net/huanghui8030/article/details/10148291
 2.如何操作较老版本的浏览器？
   不支持JavaScript的浏览器将把其当作页面文本输出。为避免这种情况，我们可以使用HTML注释标签：
   <script>
-  	 <!--
-  	 document.write("Hello World!");
-  	  //-->
+	 <!--
+	 document.write("Hello World!");
+	  //-->
   </script> 
   在注释标签结束符前的两斜杆（//）是JavaScript命令的标记。它表示JavaScript语句的结束。 
 
