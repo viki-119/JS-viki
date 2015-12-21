@@ -10,8 +10,7 @@ http://www.jb51.net/article/28772.htm
 
 d3的学习官网：http://nvd3.org/livecode/index.html#codemirrorNav
 
-若要确保d3能正常工作：必须要同时引入：
-http://nvd3.org/livecode/index.html#codemirrorNav
+若要确保d3能正常工作：必须要同时引入下面的三个文件：
 
          <link href="./nv.d3.css" rel="stylesheet" type="text/css">
          <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
