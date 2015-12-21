@@ -10,4 +10,5 @@ http://www.jb51.net/article/28772.htm
 
 d3的学习官网：http://nvd3.org/livecode/index.html#codemirrorNav
 
-引入第三方类库d3：<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+引入第三方类库d3：
+         <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
