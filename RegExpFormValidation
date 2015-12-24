@@ -110,8 +110,8 @@
                 name_msg.innerHTML="长度超过25个人字符";
             }
             //长度小于6个字符
-            else if(name_length<6){
-                name_msg.innerHTML="长度小于6个字符";
+            else if(name_length<5){
+                name_msg.innerHTML="长度小于5个字符";
             }
             else{
                 name_msg.innerHTML="ok";
