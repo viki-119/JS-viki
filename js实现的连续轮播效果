@@ -50,7 +50,6 @@
 	var tab2=document.getElementById("demo2");  
 
 	tab2.innerHTML=tab1.innerHTML;  
-		alert(tab2.innerHTML)
 	function Marquee(){  
 		if(tab2.offsetWidth-tab.scrollLeft<=0)  
 			tab.scrollLeft-=tab1.offsetWidth  
