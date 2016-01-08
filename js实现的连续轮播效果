@@ -1,3 +1,21 @@
+/******************************************************************************************************************/
+1.javascript 中 offsetWidth 是对象的可见宽度，包滚动条等边线，会随窗口的显示大小改变
+
+clientWidth、offsetWidth、clientHeight区别
+IE6.0、FF1.06+：
+offsetWidth = width + padding + border
+offsetHeight = height + padding + border
+IE5.0/5.5：
+offsetWidth = width
+offsetHeight = height
+offsetwidth:是元素相对父元素的偏移宽度。等于border+padding+width
+
+2.在javascript中scrollLeft代表什么意思？
+有两个值一个是：scrollTop一个是scrollLeft
+第一个代表页面利用滚动条滚动到下方时，隐藏在滚动条上方的页面的高度；
+第二个代表页面利用滚动条滚动到右侧时，隐藏在滚动条左侧的页面的宽度
+/******************************************************************************************************************/
+
 <html>  
 <head>  
 <title></title>  
