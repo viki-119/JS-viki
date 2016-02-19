@@ -13,6 +13,9 @@
     console.log(result);
 </script>
 
+js删除css样式
+1、如果使用class加的样式的话，可以使用document.getElementById("objid").className=""来清空样式；   
+2、如果是直接加的style="***"属性的话，可以使用document.getElementById("box").style.cssText = ""来清空样式。
 
 window.onscroll =function(){
 	var imgdoc=document.getElementById("img");
@@ -24,3 +27,7 @@ window.onscroll =function(){
 		imgdoc.style.top=""
 	}
 }
+
+
+吸顶的实现，jQuery实现
+http://www.cnblogs.com/snandy/p/3994713.html
