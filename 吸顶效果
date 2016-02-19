@@ -12,3 +12,15 @@
     result = mTop - sTop;
     console.log(result);
 </script>
+
+
+window.onscroll =function(){
+	var imgdoc=document.getElementById("img");
+	if(imgdoc.offsetTop-document.body.scrollTop<0){
+		imgdoc.style.position="fixed";
+		imgdoc.style.top="0px"
+	}else{
+		imgdoc.style.position="";
+		imgdoc.style.top=""
+	}
+}
