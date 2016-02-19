@@ -15,3 +15,5 @@ d3的学习官网：http://nvd3.org/livecode/index.html#codemirrorNav
          <link href="./nv.d3.css" rel="stylesheet" type="text/css">
          <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
          <script src="./nv.d3.js"></script>
+
+JavaScript实现拖拽功能  http://www.jb51.net/article/62421.htm
