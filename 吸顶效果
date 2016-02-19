@@ -1,0 +1,14 @@
+<script>
+    //原生
+    //获取div距离顶部的距离
+    var mTop = document.getElementsByClassName('mdiv')[0].offsetTop;
+    //减去滚动条的高度
+    var sTop = document.body.scrollTop;
+    var result = mTop - sTop;
+    console.log(result);
+    //Jquery
+    mTop = $('.mdiv')[0].offsetTop;
+    sTop = $(window).scrollTop();
+    result = mTop - sTop;
+    console.log(result);
+</script>
