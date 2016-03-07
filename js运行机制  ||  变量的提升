@@ -21,3 +21,22 @@ step6. 结束
 为什么第一句会导致错误？JavaScript中，变量不是可以不定义吗？
 
 变量的提升
+http://blog.csdn.net/sunxing007/article/details/9034253
+
+var foo = 1;
+function bar() {
+    alert(foo);
+    var foo = 10;
+    alert(foo);
+}
+bar();
+
+
+var foo = 1;  
+function bar() {  
+    if (!foo) {  
+        var foo = 10;  
+    }  
+    alert(foo);  
+}  
+bar();
