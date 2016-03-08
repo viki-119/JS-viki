@@ -7,16 +7,23 @@
         <script src="http://code.angularjs.org/angular-1.0.1.min.js"></script>
     </head>
     <body>
-  		<div id="content">
-  			<button class="bt1">button1</button>
-  			<button class="bt2">button2</button>
-  		</div>
-  
-  		<script>
-  			var target=document.getElementById('content');
-  			target.addEventListener('click',function(event){
-  				console.log(event.target);
-  			});
-  		</script>
+  		<div id="divContent">content</div>
+		<br>
+		<input type="text" id="inputContent" value="inputcontent">
+		<script>
+		    var divContent=document.getElementById('divContent');
+		    divContent.addEventListener('click',function(event){
+		//        下面的两行代码时等效的
+		        console.log(event.target.innerHTML);
+		        console.log(divContent.innerHTML)
+		    });
+		
+		    var inputContent=document.getElementById("inputContent");
+		    inputContent.addEventListener('change',function(event){
+		//        下面的两行代码时等效的
+		        console.log(event.target.value);
+		        console.log(inputContent.value)
+		    });
+		</script>
     </body> 
 </html>
