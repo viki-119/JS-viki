@@ -1,5 +1,11 @@
 JQuery监听页面滚动总结
 http://my.oschina.net/u/1444945/blog/395916
+
+核心代码：
+window.onscroll=function(){
+    console.log(document.body.scrollTop)
+}
+
 <!doctype html>
 	<html lang="en">
 	<head>
