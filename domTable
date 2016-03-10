@@ -89,9 +89,18 @@
             <!--<input type="button" id="deleteId" value="删除">-->
             $
             $("#deleteId").click(function () {
-                console.log($("#usertable input[checkd='checked']"));
-                $("#usertable input[checkd='checked']").parent().parent().remove()
+                $("#usertable input[type='checkbox']:checked").parent().parent().remove()
             });
+
+            //<th><input type="checkbox" id="checkAll"></th>
+            /*全选*/
+            $("#checkAll").click(function(){
+                if($(this).prop("checked")==true){
+                    $("#usertable input[type='checkbox']").prop("checked",true);
+                }else{
+                    $("#usertable input[type='checkbox']").prop("checked",false);
+                }
+            })
 
         });
 /*************************************************************************/
@@ -117,7 +126,7 @@
     <table id="usertable" border="1" cellpadding="5" cellspacing="0">
         <tbody>
             <tr>
-                <th><input type="checkbox"></th>
+                <th><input type="checkbox" id="checkAll"></th>
                 <th>姓名</th>
                 <th>email</th>
                 <th>电话</th>
