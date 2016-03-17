@@ -1,3 +1,10 @@
+chrome无法保存本地设置cookie解决办法：http://www.w3dev.cn/article/20140701/chrome-webkit-save-local-set-cookie.aspx
+  检测方法：document.cookie="abc=123";
+  document.cookie;
+  
+  解决方法： --enable-file-cookies 注意有空格;
+
+/**********************************************************************************************/
 <html>
 <head>
 <script type="text/javascript">
