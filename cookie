@@ -3,6 +3,8 @@ chrome无法保存本地设置cookie解决办法：http://www.w3dev.cn/article/2
   document.cookie;
   
   解决方法： --enable-file-cookies 注意有空格;
+  
+配置chrome支持本地（file协议）ajax请求：http://www.w3dev.cn/article/20141031/file-protocol-config-chrome-support-ajax-request.aspx
 
 /**********************************************************************************************/
 <html>
