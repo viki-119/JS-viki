@@ -17,3 +17,5 @@ d3的学习官网：http://nvd3.org/livecode/index.html#codemirrorNav
          <script src="./nv.d3.js"></script>
 
 JavaScript实现拖拽功能  http://www.jb51.net/article/62421.htm
+
+JavaScript表单验证：http://www.w3school.com.cn/js/js_form_validation.asp
