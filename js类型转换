@@ -1,1 +1,17 @@
-#js字符串转换成数字与数字转换成字符串的实现方法：
+js字符串转数字  ：http://www.ablanxue.com/prone_14265_1.html
+parseInt(string) ： 函数从string的开始解析，返回一个整数。  
+举例：parseInt('123') : 返回 123（int）；  
+parseInt('1234xxx') : 返回 1234（int）；  
+如果解析不到数字，则将返回一个NaN的值，可以用isNaN()函数来检测；
+var i = parseInt('abc');
+if (isNaN(i))
+{
+  alert('NaN value');
+}
+同样的parseFloat函数是将字符串转换成浮点数。
+
+js数字转字符串  
+将字符串转换成数字，得用到String类的toString方法
+var i = 10;
+var s = i.toString();
+alert(typeof s); //将输出 String
