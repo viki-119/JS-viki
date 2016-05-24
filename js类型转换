@@ -22,3 +22,23 @@ parseInt的第二个参数有四种:2、8、10、16，分别对应二进制、�
 默认是:十进制；
 在转换时可以忽略第二个参数，这样js照样可以运行，但是在你进行语法校验时，JSLint却会报错，
 这是因为压缩工具对语法的严谨性要求比较高，建议大家在用parseInt语法进行转换时，最好加个第二个参数；
+
+
+js实现的数字每隔三位加一个逗号
+var cutStr=function(str){  
+  var newStr=new Array(str.length+parseInt(str.length/3));   
+  var strArray=str.split("");
+  newStr[newStr.length-1]=strArray[strArray.length-1];   
+  var currentIndex=strArray.length-1;   
+  for(var i=newStr.length-1;i>=0;i--){   
+    if((newStr.length-i)%4==0){   
+      newStr[i]=",";   
+    }  
+    else{   
+      newStr[i]=strArray[currentIndex--];   
+    }   
+  }   
+  return newStr.join("")   
+}  
+var num=18000; 
+console.log(cutStr(num+""));
