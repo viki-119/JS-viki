@@ -22,7 +22,7 @@ var a, b;
 a = new Array(0,1,2,3,4);
 b = a.join("-");
 
-字符串转数组
+字符串转数组：http://fp-moon.iteye.com/blog/1186924
 实现方法为将字符串按某个字符切割成若干个字符串，并以数组形式返回，示例代码如下：
 var s = "abc,abcd,aaa";
 ss = s.split(",");// 在每个逗号(,)处进行分解。
