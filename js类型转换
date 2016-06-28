@@ -11,7 +11,7 @@ if (isNaN(i))
 同样的parseFloat函数是将字符串转换成浮点数。
 
 js数字转字符串  
-将字符串转换成数字，得用到String类的toString方法
+将数字转换成字符串，得用到String类的toString方法
 var i = 10;
 var s = i.toString();
 alert(typeof s); //将输出 String
