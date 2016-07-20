@@ -19,3 +19,5 @@ d3的学习官网：http://nvd3.org/livecode/index.html#codemirrorNav
 JavaScript实现拖拽功能  http://www.jb51.net/article/62421.htm
 
 JavaScript表单验证：http://www.w3school.com.cn/js/js_form_validation.asp
+
+js刷新页面方法大全: http://www.jb51.net/article/14397.htm
