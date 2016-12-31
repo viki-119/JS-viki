@@ -46,17 +46,7 @@ console.log(data);
 
 splice常用于操作数组里的值  
 
-# 数组concat() and push() unshift()
-concat()方法操作后返回一个新的数组，原来的数组没有变化；push()操作之后相当于修改了原来的数组；
-
-	<script>
-		var parents=[{id:"1",name:"Tove"},{id:"2",name:"jani"}];
-		var brothers=["stale","Kai","jim"];
-		var children=[{id:"3",name:"clone"}];
-		var xx=["tom"];
-		var family=parents.concat(brothers,children,xx);
-		console.log(family);
-		var obj={id:'4',name:"dada"};
-		family.push(obj);
-		console.log(family);
-	</script>
+# 数组concat() and push() and  unshift()
+concat()方法操作后返回一个新的数组，原来的数组没有变化；    
+push()是在数组的末尾插入一条数据，操作之后修改了原来的数组；  
+unshift()是在数组的第一行插入一条数据，操作之后修改了原来的数组；  
