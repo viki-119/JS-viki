@@ -3,6 +3,50 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<script>
+	// 数组去重
+		Array.prototype.distinct = function(){
+			var arr = this,
+					result = [],
+					i,
+					j,
+					len = arr.length;
+
+			for(i = 0; i < len; i++){
+					for(j = i + 1; j < len; j++){
+						debugger;
+							if(arr[i] === arr[j]){
+									j = ++i;
+							}
+					}
+					result.push(arr[i]);
+			}
+			return result;
+		}
+		var arra = [1,2,3,4,4,1,1,2,1,1,1];
+		arra.distinct();
+
+		Array.prototype.distinct = function (){
+			var arr = this,
+					i,
+					j,
+					len = arr.length;
+
+			for(i = 0; i < len; i++){
+					for(j = i + 1; j < len; j++){
+							if(arr[i] == arr[j]){
+								debugger;
+									arr.splice(j,1);
+									len--;
+									j--;
+							}
+					}
+			}
+			return arr;
+		};
+		var a = [1,1,2,3,4];
+		var b = a.distinct();
+	</script>
 </head>
 <body>
 <!-- 	<script>
